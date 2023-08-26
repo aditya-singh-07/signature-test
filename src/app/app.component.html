@@ -1,0 +1,7 @@
+<div style="border: 1px solid red; padding: 2%;">
+  <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()"></signature-pad>
+</div>
+
+<div style="display: flex;justify-content: center;">
+  <button class="button-signature" role="button" (click)="signaturePad.clear()">Clear Signature</button>
+</div>
